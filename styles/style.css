@@ -88,7 +88,6 @@
   display: flex;
   margin-left:650px;
   margin-bottom:8px;
-  border:2px solid red;
 }
 
 #banner p{
@@ -99,25 +98,78 @@
   display: flex;
   margin:0 auto;
   margin-bottom:24px;
-  border:2px solid yellow ;
 }
 
 #banner .button-item{
   width:356px;
-  height:44px;
-  margin:0 auto;   
-  border: 2px solid red;
+  display: flex;
+  height:50px;
+  margin:0 auto;  
+  /* border: 2px solid red; */
 }
  .button-item button{
+  width:200px;
   height:44px;
-  gap: ;
-  display: flex 
-  padding: ;
+  row-gap:200px;
+  display: flex; 
+  padding:12px 20px 12px 48px;
   border-radius:10000px;
+  background-color:#FB09B4;
  }
- 
 
- .button-item-second{
+  .button-item .color{
+   width:147px; 
+   height:44px;
+  }
+
+
+ .button-item span{
   width:147px;
   height:44px;
+  
+ }
+
+ .main-item{
+  max-width:1600px ;
+  height:646px;
+  padding-right:1010px ;
+  background-color:#1A0B2E;
+ }
+
+ .main-item h2{
+  width:1200px;
+  height:58px;
+  font-size:48px;
+  color: #FFFFFF;
+  padding: 0px 470px;
+  display:flex;
+  margin-left:170px;
+ }
+
+ .main-item p {
+  width:900px;
+  height:148px;
+  padding:0px auto;
+  flex-wrap: wrap;
+  margin-top:20px;
+  margin-left:450px;
+  color: #FFFFFF;
+  font-size:16px;
+
+ }
+
+ .number-item{
+  width:1200px;
+  height:94px;
+  display: grid;
+  color: #00FF88;
+  font-size:48px;
+  margin-left:330px;
+  grid-template-columns: repeat(4,1fr);
+ }
+
+ @media screen and (max-width:576px) {
+  #nav-bar{
+    display:flex;
+  }
  }
