@@ -167,8 +167,39 @@
   margin-left:330px;
   grid-template-columns: repeat(4,1fr);
  }
+ .text-thim{
+  width:1200px;
+  height:94px;
+  display: flex;
+  border:2px solid red;
+  
+ }
 
- @media screen and (max-width:576px) {
+ #bld-ald{
+  width:1600px;
+  height:1121px;
+  background-color: #230E3D;
+  border:5px solid red;
+ }
+
+ #bld-ald h1{
+  display: flex;
+  margin-left:620px;
+  color: #FFFFFF;
+  font-size:48px;
+  font-weight:700px;
+ }
+
+
+ .atlg-doth{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: repeat();
+  
+ 
+ }
+
+@media screen and (max-width:576px) {
   #nav-bar{
     display:flex;
   }
