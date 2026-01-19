@@ -6,7 +6,7 @@
 #nav-bar{
   max-width:1600px;
   height:92px;
-  border:2px solid red;
+  border:2px solid rgba(137, 43, 226, 0.123);
   margin:0 auto;
   background-color: #1A0B2E;
 }
@@ -51,6 +51,7 @@
   border-style:none;
   color:white;
   padding:12px;
+  margin-right:240px;
   
 }
 
@@ -68,5 +69,27 @@
   padding:101px 525px 101px 625px;
   image-rendering:url(../a);
 } 
+.main-img{
+  margin:0 auto;
+  padding-left:20px;
+  background-image: url(../assets/hero-circle.png);
+  background-repeat:no-repeat ;
+  background-position-x:450px;
+  background-position-y:40px ;
+}
+
+#banner h3{
+  width:550px;
+  height:168px;
+  font-size:60px;
+  
+  color: #FFFFFF;
+  padding:0 auto;
+  margin-top:20px;
+  display: flex;
+  margin-left:500px;
+  margin-bottom:50px;
+  border:2px solid red;
+}
  
  
