@@ -223,6 +223,17 @@
 
   }
 
+   .youtub-vidio{
+    width:100%;
+    height:100%;
+    border-radius:60px;}
+
+    .youtub-vidio iframe{
+      border-radius:20px;
+      padding-top:10px;
+      
+    }
+    
   #container-item h2{
     display: flex;
     margin-bottom:500px ;
@@ -300,6 +311,10 @@
     margin-left:580px;
     padding:80px 0px 0px 0px ;
     
+  }
+
+  .copy-text{
+   
   }
 
 @media screen and(max-width:576px) {
